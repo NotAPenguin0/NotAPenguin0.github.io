@@ -4,5 +4,19 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+## About me
+
+My name is Michiel, and I'm a 20 year old computer science student at [KU Leuven](https://www.kuleuven.be/english/kuleuven/index.html). My main
+areas of interest are computer graphics, the Vulkan API and the Rust programming language. On this website you'll find various
+articles about my experiences in these fields.
+
+## Current projects
+
+### [Phobos](https://github.com/NotAPenguin0/phobos-rs)
+
+A Rust library for Vulkan on desktop. Phobos provides abstractions to remove Vulkan boilerplate, manage resources and automate
+synchronization.
+
+### [Andromeda](https://github.com/NotAPenguin0/andromeda-rs)
+
+A 3D terrain engine and landscape editor in Rust.
