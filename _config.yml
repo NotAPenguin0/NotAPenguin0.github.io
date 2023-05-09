@@ -13,40 +13,31 @@ baseurl: ""
 lang: en
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone:
+timezone: Europe/Brussels
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: NotAPenguin's ramblings # the main title
-
-tagline: featuring Rust and computer graphics # it will display as the sub-title
+title: NotAPenguin's ramblings
+# subtitle
+tagline: featuring Rust and computer graphics
 
 description: >- # used by seo meta and the atom feed
   Welcome to my page, where I ramble about various things, usually
-  related to computer graphics or Rust.
+  related to computer graphics or Rust programming.
 
-# fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "http://www.notapenguin.blog"
 
 github:
-  username: NotAPenguin0 # change to your github username
-
+  username: NotAPenguin0
 twitter:
-  username: NotAPenguin1 # change to your twitter username
-
+  username: NotAPenguin1
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Michiel Vande Ginste
-  email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/NotAPenguin1 # change to your twitter homepage
-    - https://github.com/NotAPenguin0 # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/NotAPenguin0
+    - https://twitter.com/NotAPenguin1
 
 google_site_verification: # fill in to your verification string
 
@@ -81,7 +72,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/pengun.png
 
 # boolean type, the global switch for TOC in posts.
 toc: true
