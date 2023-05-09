@@ -6,7 +6,7 @@ order: 4
 
 ## About me
 
-My name is Michiel, and I'm a 20 year old computer science student at [KU Leuven](https://www.kuleuven.be/english/kuleuven/index.html). My main
+My name is Michiel, and I'm 20 years old and I study computer science at [KU Leuven](https://www.kuleuven.be/english/kuleuven/index.html). My main
 areas of interest are computer graphics, the Vulkan API and the Rust programming language. On this website you'll find various
 articles about my experiences in these fields.
 
