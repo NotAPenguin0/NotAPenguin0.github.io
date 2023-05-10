@@ -2,7 +2,7 @@
 layout: post
 title: "Writing an event system in Rust"
 categories: [Rust]
-tags: [rust]
+tags: [rust, utilities, architecture]
 author: NotAPenguin
 ---
 
