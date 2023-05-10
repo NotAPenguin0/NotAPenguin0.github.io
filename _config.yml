@@ -78,7 +78,7 @@ avatar: /assets/img/pengun.png
 toc: true
 
 comments:
-  active: # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active: giscus
   # The active options are as follows:
   disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
@@ -88,12 +88,12 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    input_position: # optional, default to 'bottom'
+    repo: "NotAPenguin0/NotAPenguin0.github.io"
+    repo_id: "R_kgDOJgpHTw"
+    category: "Post comments"
+    category_id: "DIC_kwDOJgpHT84CWZEd"
+    mapping: "pathname"
+    input_position: "top"
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
