@@ -20,3 +20,8 @@ synchronization.
 ### [Andromeda](https://github.com/NotAPenguin0/andromeda-rs)
 
 A 3D terrain engine and landscape editor in Rust.
+
+
+<!-- Send data to GoatCounter -->
+<script data-goatcounter="https://notapenguin.goatcounter.com/count"
+async src="//gc.zgo.at/count.js"></script>

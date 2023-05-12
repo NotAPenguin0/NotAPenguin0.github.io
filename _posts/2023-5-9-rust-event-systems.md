@@ -439,3 +439,8 @@ The full source code of this implementation can be found in the
 [^fn-any-bounds]: `pub trait Any: 'static`, see [docs.rs](https://doc.rust-lang.org/std/any/trait.Any.html)
 [^fn-downcast-bounds]: This trait bound is implicit, see [docs.rs](https://doc.rust-lang.org/std/any/trait.Any.html#method.downcast_ref)
 [^fn-unsize]: See [docs.rs](https://doc.rust-lang.org/std/marker/trait.Unsize.html)
+
+
+<!-- Send data to GoatCounter -->
+<script data-goatcounter="https://notapenguin.goatcounter.com/count"
+async src="//gc.zgo.at/count.js"></script>
