@@ -298,3 +298,6 @@ _Who cut through my decal?_
 [^fn-tess-eval]: Vulkan uses the terminology *Tessellation Control* and *Tessellation Evaluation* shaders, while DX12 uses *Hull* and *Domain* shaders, but they do exactly the same.
 [^fn-gaussian]: Also known as a *normal distribution*.
 [^fn-decals]: An excellent resource is [Screen Space Decals in Warhammer 40,000: Space Marine](https://blog.popekim.com/en/2012/10/12/siggraph-2012-screen-space-decals-in-space-marine.html)
+
+<!-- Send data to GoatCounter -->
+<script data-goatcounter="https://notapenguin.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
