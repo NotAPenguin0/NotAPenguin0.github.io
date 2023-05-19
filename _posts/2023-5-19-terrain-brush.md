@@ -101,7 +101,7 @@ Now we are ready to write the actual compute shader that will modify the heightm
 ```hlsl
 // True if the pixel at center + offset is inside the area the brush is allowed to modify
 bool inside_patch_rect(int2 center, int2 offset) {
-    return abs(offset.x) <= pc.size / 2 && abs(offset.y) <= BRUSH_SIZE / 2;
+    return abs(offset.x) <= BRUSH_SIZE / 2 && abs(offset.y) <= BRUSH_SIZE / 2;
 }
 
 [numthreads(16, 16, 1)]
