@@ -182,10 +182,12 @@ will be applied.
 The simplest way to do this is to render a *decal*. 
 This is a flat texture that is projected onto 
 the rest of the scene geometry. 
-There are many ways to render decals, but probably the easiest technique is *Deferred Decal Rendering*[^fn-decals]. 
+There are many ways to render decals, but probably the easiest approach is *Projective Decal Rendering*[^fn-decals]. 
 Using this technique, we can avoid generating geometry for the decal that fits the terrain. 
 Instead, we render a box that covers the decal area, and project that box onto the terrain using the depth value from
-the main rendering pass.
+the main rendering pass. 
+The drawback of this approach is that it's not vey suitable for rendering many decals, that's where
+techniques like *Deferred Decal Rendering* come in.
 
 ### Decal box
 
